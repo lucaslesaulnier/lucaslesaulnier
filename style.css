@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'courrier prime';
+    src: url(assets/fonts/CourierPrime-Regular.woff) format("woff");
+}
+
+
+img {
+    max-width: 180px;
+    max-height: 210px;
+}
+
+.image-projet {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    image-rendering: pixelated;
+    max-width: 100%;
+    max-height: 86vh;
+}
+
+.texte {
+    text-decoration: none;
+    grid-template-columns: auto 1fr auto;
+    place-items: left;
+    place-items: left;
+    justify-content: left;
+    font-size: 17px;
+    text-justify: left;
+    text-align: left;
+}
+
+body {
+    background: none;
+    font-family: 'courrier prime';
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    overflow-x: hidden;
+    color: black;
+}
+
+.header {
+    display: grid;
+    text-align: center;
+    grid-template-columns: auto 1fr auto;
+    place-items: center;
+    text-decoration: none;
+}
+
+.header a {
+    text-shadow: 0 0 10px rgb(86, 86, 86);
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-shadow: none;
+    text-decoration: none;
+}
+
+.apropos {
+    text-decoration: none;
+    place-items: center;
+    place-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+}
+
+.apropos a {
+    text-shadow: 0 0 10px rgb(86, 86, 86);
+    text-decoration: none;
+    color: inherit;
+}
+
+.apropos a:hover {
+    text-shadow: none;
+    text-decoration: none;
+}
+
+
+.logo {
+    max-height: 100%;
+    width: auto;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: 'courrier prime';
+    font-size: 40px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 45px;
+    line-height: 0;
+}
+
+h2 {
+    color: black;
+    font-family: 'courrier prime';
+    font-size: 22 px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 45px;
+    line-height: 0;
+}
+
+h3 .a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.footer {
+    color: rgb(159, 159, 159);
+    font-family: 'courrier prime';
+    font-size: 22 px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 100px;
+    line-height: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+    justify-content: center;
+    gap: 50px;
+    place-items: center;
+}
+
+
+
+
+.ombre-portee {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.lien {
+
+    text-decoration: none;
+}
+
+.tournesol {
+
+    grid-template-columns: repeat(3, 320px);
+}
+
+
+.gridcartes {
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+    justify-content: center;
+    gap: 50px;
+    place-items: center;
+    
+    
+}
+
+.gridbech {
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+    justify-content: center;
+    gap: 50px;
+    place-items: center;
+
+}
+
+
+.gridder {
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+    justify-content: center;
+    gap: 50px;
+    place-items: center;
+
+}
+
+.gridfff {
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+    justify-content: center;
+    gap: 50px;
+    place-items: center;
+
+}
+
+.gridpis {
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+    justify-content: center;
+    gap: 50px;
+    place-items: center;
+
+}
+
+.gridsad {
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+    justify-content: center;
+    gap: 50px;
+    place-items: center;
+
+}
+
+
+.gridvdp {
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+    justify-content: center;
+    gap: 50px;
+    place-items: center;
+
+}
+
+.gridver {
+    display: grid;
+    grid-template-columns: repeat(2, 320px);
+    justify-content: center;
+    gap: 50px;
+    place-items: center;
+
+}
